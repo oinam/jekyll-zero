@@ -1,0 +1,52 @@
+title: Jekyll Zero
+author: Brajeshwar Oinam
+email: brajeshwar@oinam.com
+description: >
+  Clean, simple, and minimal Starter/Template theme for Jekyll.
+
+# By default, this variable is only used in page head for the canonical header and the RSS link.
+# It's also used in the xml feed to point to site resources as the software
+# that will manage this feed doesn't know resource's urls.
+# This variable is only necessary for external systems.
+url: "https://oinam.com"
+
+# This variable indicates the root folder of your Jekyll site.
+# By default it is set to "" (empty string).
+# That means that your Jekyll site is at the root of http://example.com.
+# If your Jekyll site lives in http://example.com/blog, you have to set site.baseurl to /blog
+# (note the slash). This will allow assets (css, js) to load correctly.
+baseurl: ""
+
+# Excerpts (true|false)
+show_excerpts: false
+
+theme_config:
+  avatar_url: ""
+  about_you: a short description about you.
+  date_format: "%b %d"
+
+  social:
+    twitter: oinam
+    github: oinam
+    rss: RSS
+
+highlighter: rouge
+
+# Sass / Styles
+sass:
+  sass_dir: _scss
+  style: compressed # OPTIONS: nested, expanded, compact, compressed
+
+plugins:
+  - github-pages
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Exclude from production, which goes to `_site`.
+# The following items will not be processed, by default.
+exclude:
+  - Gemfile
+  - Gemfile.*
+  - LICENSE.*
+  - README.*

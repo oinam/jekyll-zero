@@ -1,0 +1,26 @@
+html {
+  padding: 1em;
+  font-family: $font-family-sans;
+}
+
+@media (min-width: 34em) {
+  html {
+    padding: 1em calc(50% - 16em);
+  }
+}
+
+iframe,
+img,
+input,
+select,
+textarea {
+  height: auto;
+  max-width: 100%;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: $font-family-monospace;
+}
