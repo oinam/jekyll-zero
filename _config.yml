@@ -1,52 +1,52 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 title: Jekyll Zero
-author: Brajeshwar Oinam
-email: brajeshwar@oinam.com
-description: >
-  Clean, simple, and minimal Starter/Template theme for Jekyll.
+email: oinam@oinam.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: oinam
+github_username:  oinam
 
-# By default, this variable is only used in page head for the canonical header and the RSS link.
-# It's also used in the xml feed to point to site resources as the software
-# that will manage this feed doesn't know resource's urls.
-# This variable is only necessary for external systems.
-url: "https://oinam.com"
-
-# This variable indicates the root folder of your Jekyll site.
-# By default it is set to "" (empty string).
-# That means that your Jekyll site is at the root of http://example.com.
-# If your Jekyll site lives in http://example.com/blog, you have to set site.baseurl to /blog
-# (note the slash). This will allow assets (css, js) to load correctly.
-baseurl: ""
-
-# Excerpts (true|false)
-show_excerpts: false
-
-theme_config:
-  avatar_url: ""
-  about_you: a short description about you.
-  date_format: "%b %d"
-
-  social:
-    twitter: oinam
-    github: oinam
-    rss: RSS
-
-highlighter: rouge
-
-# Sass / Styles
-sass:
-  sass_dir: _scss
-  style: compressed # OPTIONS: nested, expanded, compact, compressed
-
+# Build settings
+# theme: jekyll-zero
 plugins:
-  - github-pages
   - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
 
-# Exclude from production, which goes to `_site`.
+# Exclude from processing.
 # The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
-  - Gemfile.*
-  - LICENSE.*
-  - README.*
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
