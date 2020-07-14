@@ -30,6 +30,16 @@ twitter_username: oinam
 github_username:  oinam
 
 # Build settings
+markdown: kramdown
+permalink: pretty
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
 # theme: jekyll-zero
 plugins:
   - jekyll-feed
@@ -50,3 +60,5 @@ exclude:
   - Gemfile.lock
   - node_modules/
   - vendor/
+  - README.*
+  - LICENSE.*
