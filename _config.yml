@@ -33,9 +33,6 @@ github_username:  oinam
 markdown: kramdown
 permalink: pretty
 
-include:
-  - _pages
-
 sass:
   sass_dir: _sass
   style: compressed
