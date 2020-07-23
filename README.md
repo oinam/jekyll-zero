@@ -1,4 +1,4 @@
-# Jekyll Default Theme
+# Jekyll Zero
 
 > Clean, simple, and minimal theme for jekyll.
 
@@ -14,13 +14,6 @@ Run a local Jekyll server by running `bundle exec jekyll serve` or `jekyll serve
 
 Optionally, if you want to auto-reload your browser during development, install [BrowserSync](https://www.browsersync.io) globally and run `browser-sync start --proxy "localhost:4000" --files "_site/*.*"`.
 
-## TO-DO
-
-[ ] Set a base usable theme for a simple site/blog.
-
-## Contributing
-
 ## License
 
 Available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-# 
