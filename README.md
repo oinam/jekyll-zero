@@ -1,6 +1,6 @@
 # Jekyll Zero
 
-> Clean, simple, and minimal theme for jekyll.
+> A clean, simple, and minimal starting theme for jekyll.
 
 ## Development
 
@@ -11,8 +11,6 @@ Once, Jekyll is installed and working, install the required gem for this theme t
 `bundle install`
 
 Run a local Jekyll server by running `bundle exec jekyll serve` or `jekyll serve`.
-
-Optionally, if you want to auto-reload your browser during development, install [BrowserSync](https://www.browsersync.io) globally and run `browser-sync start --proxy "localhost:4000" --files "_site/*.*"`.
 
 ## License
 
