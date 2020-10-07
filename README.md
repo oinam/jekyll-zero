@@ -1,6 +1,6 @@
 # Jekyll Zero
 
-> A clean, simple, and minimal starting theme for jekyll.
+> A clean, simple, and minimal starting theme for Jekyll.
 
 ## Development
 
